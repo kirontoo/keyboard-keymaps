@@ -72,8 +72,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_RAISE] = LAYOUT_ortho_hhkb(
-        RESET,   RGB_TOG, RGB_MOD, _______, _______, _______, QWERTY,  COLEMAK, _______, _______, _______, _______,  _______, KC_MPLY,
-        _______, RGB_HUI, RGB_HUD, _______, _______, _______, _______, _______, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN,  KC_RPRN, _______,
+        _______,   RGB_TOG, RGB_MOD, _______, _______, _______, QWERTY,  COLEMAK, _______, _______, _______, _______,  _______, KC_MPLY,
+        _______, RGB_HUI, RGB_HUD, _______, _______, _______, _______, RESET,   KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN,  KC_RPRN, _______,
         _______, RGB_SAI, RGB_SAD, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, KC_PIPE, KC_DQT,
         KC_LBRC, RGB_VAI, RGB_VAD, _______, _______, _______, _______, _______, KC_VOLD, KC_VOLU, KC_MPRV, KC_MNXT,  KC_BSLS, KC_RBRC,
                  _______, _______, _______, _______,          _______, _______,          _______, _______, _______, _______
